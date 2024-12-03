@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Продукт Дүкөнү</title>
+  <link rel="stylesheet" href="tstyle.css">
+</head>
+<body>
+  <header class="header">
+    <h2 class="store-name">NUR Store</h2>
+  </header>
+  <section class="products">
+    <div class="container">
+      <div class="product-items" id="product-container">
+        <!-- Продукттар JavaScript аркылуу кошулат -->
+      </div>
+    </div>
+  </section>
 
+  <!-- Модалдык терезе -->
+  <div class="modal" id="quantity-modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h3>Количество киргизүү</h3>
+      <p id="modal-product-name"></p>
+      <input type="number" id="quantity-input" min="1" placeholder="Количество киргизиңиз">
+      <button class="confirm-btn" onclick="confirmQuantity()">Тастыктоо</button>
+    </div>
+  </div>
+
+  <script src="tscript.js"></script>
+</body>
+</html>
