@@ -59,7 +59,7 @@ function confirmQuantity() {
     `➡️ Количество: "${quantity}шт" ;%0A%0A` +
     `💰 *Жалпы сумма:* "${totalPrice} сом"`;
 
-  const phoneNumber = "+996999106710";
+  const phoneNumber = "+996224156571";
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
   window.open(whatsappURL, "_blank");
 
