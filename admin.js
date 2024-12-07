@@ -1,4 +1,4 @@
-const sheetApiUrl = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+const sheetApiUrl = 'https://script.google.com/macros/s/AKfycbzqF__uCwx7wytjDQexuokIAEPm8HoTRYrLYo3qy6OTdyRDNY5oczRGjR0FP6B2u93W/exec';
 
 document.getElementById('product-form').addEventListener('submit', (e) => {
   e.preventDefault();
