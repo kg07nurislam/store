@@ -1,7 +1,7 @@
 const sheetApiUrl = 'https://script.google.com/macros/s/AKfycbzqF__uCwx7wytjDQexuokIAEPm8HoTRYrLYo3qy6OTdyRDNY5oczRGjR0FP6B2u93W/exec';
 
 let selectedProduct = {};
-/*
+
 // Продукттарды жүктөө жана көрсөтүү
 fetch(sheetApiUrl)
   .then(response => {
@@ -66,7 +66,7 @@ function confirmQuantity() {
   closeModal();
 }
 
-*/
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.querySelector(".menu-toggle");
