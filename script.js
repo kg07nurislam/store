@@ -13,7 +13,7 @@ fetch(sheetApiUrl)
     products.forEach(product => {
       const productHtml = `
         <div class="product-item">
-          <img src="${product.product_img_url}" alt="${product.product_name}" class="product-img">
+          <img src="images/61DlxMnmmmL._AC_UF1000,1000_QL80_.jpg" alt="${product.product_name}" class="product-img">
           <p class="product-name"><b>${product.product_name}</b></p>
           <p class="product-description">${product.product_description}</p>
           <div class="product-price">
