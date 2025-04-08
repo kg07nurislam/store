@@ -97,6 +97,7 @@ header .logo h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding: 10px;
   justify-content: center;
 }
 
